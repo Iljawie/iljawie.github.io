@@ -3,15 +3,26 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
+
 body {
-  background: url('hero.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+    background: url('hero.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
-h1, p{
-  color:#000000;
-  text-shadow: 0px 0px 10px  white ;
+
+a {
+    color: #000000;
 }
-p {}
+
+h1,
+text {
+    font-size: 1.5em;
+    color: #000000;
+    text-shadow: 0px 0px 10px white;
+}
+
+h1 {
+    font-size: 3em;
+}
